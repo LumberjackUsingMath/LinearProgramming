@@ -1,0 +1,27 @@
+parameters:
+  baker_days_total : 60 # The total number of working days available for bakers, i.e. number_of_bakers * days_per_baker
+  packer_days_total : 22 # The total number of working days available for packers, i.e. number_of_packer * days_per_packer
+  model_name :  "Bakery_Zurich"
+
+products:
+  -
+    name : cakeA
+    lb : 0
+    ub : # None
+    cat :  Integer
+    price : 40
+    baker_days : 1
+    packer_days : 1
+  -
+    name: cakeB
+    lb: 0
+    ub: # None
+    cat :  Integer
+    price: 20
+    baker_days: 2.5
+    packer_days: 0.5
+
+
+
+
+
